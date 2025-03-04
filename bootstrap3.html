@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Sections</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('///C:/Users/Lenovo/OneDrive/Desktop/WTD2 labs/Images/kulogo1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .logo {
+            height: 50px;
+        }
+        marquee {
+            background-color: #880000;
+            color: #fff;
+            padding: 1em 0;
+            font-size: 1.2em;
+        }
+        th, td {
+            border: 2px solid black;
+            border-radius: 10px;
+            border-collapse: collapse;
+            border-style: dotted;
+            background-color: rgb(216, 162, 62);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="C:/Users/Lenovo/Downloads/KarnavatiUniversityLogo_new (1).png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap2.html" target="_blank">Marksheet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap3.html" target="_blank">Timetable</a></li>
+                    <li class="nav-item"><a class="nav-link" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap4.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Marquee Section -->
+    <marquee>Welcome to Karnavati University!</marquee>
+
+    <div class="container my-5">
+        <h2 class="text-center">Time-Table</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Day/Time</th>
+                        <th>11:00-11:50</th>
+                        <th>11:50-12:40</th>
+                        <th>12:40-13:30</th>
+                        <th>13:30-14:20</th>
+                        <th>14:20-15:10</th>
+                        <th>15:10-16:10</th>
+                        <th>16:10-17:00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mon</td>
+                        <td>IML (MK)</td>
+                        <td>IML (MK)</td>
+                        <td rowspan="5"><b>LUNCH</b></td>
+                        <td>WTD (RM, SA)</td>
+                        <td>WTD (RM)</td>
+                        <td>OS (GL)</td>
+                        <td>OOPJ (RG)</td>
+                    </tr>
+                    <tr>
+                        <td>Tue</td>
+                        <td>OOPJ (RG)</td>
+                        <td>CHAMBER</td>
+                        <td>LIBRARY</td>
+                        <td>WTD (RM)</td>
+                        <td>OOPJ (RG, AS)</td>
+                        <td>OOPJ (RG, AS)</td>
+                    </tr>
+                    <tr>
+                        <td>Wed</td>
+                        <td>OS (GL)</td>
+                        <td>CHAMBER</td>
+                        <td>WTD (RM)</td>
+                        <td>SM&BW (HM)</td>
+                        <td>LR (L&D)</td>
+                        <td>IML (MK)</td>
+                    </tr>
+                    <tr>
+                        <td>Thu</td>
+                        <td>OS (GL)</td>
+                        <td>CHAMBER</td>
+                        <td>WTD (RM)</td>
+                        <td>IML (MK)</td>
+                        <td>LR (L&D)</td>
+                        <td>LIBRARY</td>
+                    </tr>
+                    <tr>
+                        <td>Fri</td>
+                        <td>CHAMBER</td>
+                        <td>IML (MK)</td>
+                        <td>OS (GL)</td>
+                        <td>SM&BW (HM)</td>
+                        <td>LIBRARY</td>
+                        <td>MENTORING</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>
+            <a class="text-white" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap2.html" target="_blank">Marksheet</a> |
+            <a class="text-white" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap3.html" target="_blank">Timetable</a> |
+            <a class="text-white" href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\bootstrap4.html" target="_blank">Contact Us</a>
+        </p>
+        <p>&copy; 2025 Karnavati University. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
