@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Sections</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #000000;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        marquee {
+            background-color: #880000;
+            color: #333;
+            padding: 1em 0;
+            font-size: 1.2em;
+        }
+        footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer a {
+    color: white; /* Fix: Links will now be visible */
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+    </style>
+
+<body>
+    <!-- Menubar -->
+    <nav>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\homeku.html">Home</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\mark.html" target="_blank">Marksheet</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\tt2.html" target="_blank">Timetable</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\contactus.html" target="_blank">Contact Us</a>
+    </nav>
+
+    <!-- Marquee Section -->
+    <marquee c>Welcome to Karnavati University!</marquee>
+
+  <link rel="stylesheet" href="timetable1.css">
+  <style>
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        object-fit: cover; 
+        z-index: -1;
+        opacity: 0.6; 
+    }
+    th, td {
+        border: 2px solid black;
+        border-radius: 10px;
+        border-collapse: collapse;
+        border-style: dotted;
+        background-color: rgb(216, 162, 62);
+    }
+
+  </style>
+
+  <img src="C:\Users\Lenovo\Downloads\KarnavatiUniversityLogo_new (1).png" alt="Background Image" class="background-image">
+
+  <h2><center>Table With Border</center></h2>
+  <table style="width:100%">
+    <tr>
+      <th>Day/Time</th>
+      <th>11:00-11:50</th>
+      <th>11:50-12:40</th>
+      <th>12:40-13:30</th>
+      <th>13:30-14:20</th>
+      <th>14:20-15:10</th>
+      <th>15:10-16:10</th>
+      <th>16:10-17:00</th>
+    </tr>
+    <tr>
+      <td>Mon</td>
+      <td>IML (MK)</td>
+      <td>IML (MK)</td>
+      <td rowspan="5"><b>LUNCH</b></td>
+      <td>WTD (RM, SA)</td>
+      <td>WTD (RM)</td>
+      <td>OS (GL)</td>
+      <td>OOPJ (RG)</td>
+    </tr>
+    <tr>
+      <td>Tue</td>
+      <td>OOPJ (RG)</td>
+      <td>CHAMBER</td>
+      <td>LIBRARY</td>
+      <td>WTD (RM)</td>
+      <td>OOPJ (RG, AS)</td>
+      <td>OOPJ (RG, AS)</td>
+    </tr>
+    <tr>
+      <td>Wed</td>
+      <td>OS (GL)</td>
+      <td>CHAMBER</td>
+      <td>WTD (RM)</td>
+      <td>SM&BW (HM)</td>
+      <td>LR (L&D)</td>
+      <td>IML (MK)</td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td>OS (GL)</td>
+      <td>CHAMBER</td>
+      <td>WTD (RM)</td>
+      <td>IML (MK)</td>
+      <td>LR (L&D)</td>
+      <td>LIBRARY</td>
+    </tr>
+    <tr>
+      <td>Fri</td>
+      <td>CHAMBER</td>
+      <td>IML (MK)</td>
+      <td>OS (GL)</td>
+      <td>SM&BW (HM)</td>
+      <td>LIBRARY</td>
+      <td>MENTORING</td>
+    </tr>
+  </table>
+<!-- Footer Section -->
+<footer>
+  <p>
+      <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\mark.html" target="_blank">Marksheet</a> |
+      <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\tt2.html" target="_blank">Timetable</a> |
+      <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\contactus.html" target="_blank">Contact Us</a>
+  </p>
+  <p>&copy; 2025 Karnavati University. All rights reserved.</p>
+</footer>
+</body>
+</html>

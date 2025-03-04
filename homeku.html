@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karnavati University</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background: url('///C:/Users/Lenovo/OneDrive/Desktop/WTD2 labs/Images/kulogo1.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 1); /* Adjust the opacity */
+            z-index: -1;
+        }
+        .navbar {
+            background-color: black;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            color: lightblue;
+        }
+        .marquee {
+            background-color: maroon;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .container {
+            flex: 1; /* Pushes footer to the bottom */
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+        }
+        .footer a {
+            color: lightblue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\web.html">Home</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\mark.html">Marksheet</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\tt2.html">Timetable</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\contactus.html">Contact Us</a>
+    </div>
+
+    <marquee class="marquee">Welcome to Karnavati University!</marquee>
+
+    <div class="container">
+        <h1>Welcome to the Home Page of Karnavati University</h1>
+        <p>Explore our website to learn more about us.</p>
+        <h2>Your Marksheet</h2>
+        <p>Learn more about our mission and values.</p>
+        <h2>Timetable</h2>
+        <p>Discover your timetable.</p>
+        <h2>Contact Us</h2>
+        <p>Reach out to us for more information or support.</p>
+    </div>
+
+    <div class="footer">
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\mark.html">Marksheet</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\tt2.html">Timetable</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\contactus.html">Contact Us</a>
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation & Footer Bar */
+        .navbar, .footer {
+            background-color: black;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a, .footer a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .navbar a:hover, .footer a:hover {
+            background-color: gray;
+            border-radius: 5px;
+        }
+
+        /* Marquee */
+        .marquee {
+            background-color: maroon;
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80%;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .marksheet {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            background: transparent;
+            border-collapse: collapse;
+            opacity: 0.7;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #060606;
+            padding: 8px;
+        }
+
+        th {
+            background: rgb(0, 0, 0);
+            color: white;
+        }
+
+        /* Footer Text */
+        .footer p {
+            color: white;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar (Black) -->
+    <div class="navbar">
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\homeku.html">Home</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\mark.html" target="_blank">Marksheet</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\tt2.html" target="_blank">Timetable</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\contactus.html" target="_blank">Contact Us</a>
+    </div>
+
+    <!-- Marquee (Maroon) -->
+    <marquee class="marquee">Welcome to Karnavati University!</marquee>
+
+    <img src="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\Images\kulogo1.jpg" class="background-image">
+
+    <div class="marksheet">
+        <h1>Karnavati University</h1>
+        <h2>Annual Statement of Marks</h2>
+        <p>UnitedWorld Institute of Technology (UIT)</p>
+
+        <table>
+            <tr><td><b>Name:</b></td><td>Honey Gujarati</td></tr>
+            <tr><td><b>Course:</b></td><td>B.S (Data Science)</td></tr>
+            <tr><td><b>Student ID:</b></td><td>23BSDS01</td></tr>
+            <tr><td><b>Enrollment No.:</b></td><td>202307010015</td></tr>
+        </table>
+
+        <table>
+            <tr><th>Subject Code</th><th>Subject</th><th>Max</th><th>Obtained</th></tr>
+            <tr><td>71204001001</td><td>Web Tech</td><td>100</td><td>80</td></tr>
+            <tr><td>71204001002</td><td>Java</td><td>100</td><td>87</td></tr>
+            <tr><td>71204001003</td><td>OS</td><td>100</td><td>78</td></tr>
+            <tr><td>71204001004</td><td>Kali Linux</td><td>100</td><td>89</td></tr>
+            <tr><td>71204001005</td><td>Blog Writing</td><td>100</td><td>67</td></tr>
+            <tr><td>UC012000003</td><td>Quant Aptitude</td><td>100</td><td>58</td></tr>
+        </table>
+
+        <p><b>Total:</b> 459 / 600 | <b>Result:</b> PASS | <b>Percentage:</b> 76.5% | <b>Grade:</b> B+</p>
+    </div>
+
+    <!-- Footer Bar -->
+    <div class="footer">
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\mark.html" target="_blank">Marksheet</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\tt2.html" target="_blank">Timetable</a>
+        <a href="C:\Users\Lenovo\OneDrive\Desktop\WTD2 labs\contactus.html" target="_blank">Contact Us</a>
+        <p>© 2025 Karnavati University. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
